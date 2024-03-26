@@ -7,7 +7,7 @@ def number_guess():
     number = random.randrange(1, 10)
     guess = 0
     while guess != number:
-        guess = int(input("Enter a number between 1 and 100: "))
+        guess = int(input("Enter a number between 1 and 10: "))
         if guess < number:
             print("Too low!")
         elif guess > number:
