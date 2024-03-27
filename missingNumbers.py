@@ -4,7 +4,7 @@ def findMissingNumbers(num_list):
     numbers = set(num_list)
     missing = []
 
-    for i in range(1, num_list[-1]):
+    for i in range(num_list[0], num_list[-1]):
         if i not in numbers:
             missing.append(i)
     return missing
