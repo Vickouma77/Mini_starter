@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 def findMissingNumbers(num_list):
-    numbers = set(num_list)
+    numbers = set(sorted(num_list))
     missing = []
 
     for i in range(num_list[0], num_list[-1]):
