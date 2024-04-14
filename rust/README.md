@@ -8,6 +8,27 @@ rust is a statically typed, compiled language that is designed for speed, safety
 
 :two:  Once you have installed the rust compiler, you can start writing rust code. You can use any text editor or IDE to write rust code.
 
+## Cargo
+
+Cargo is the package manager and build tool for rust. It is used to create, build, and manage rust projects. Cargo makes it easy to create new projects, add dependencies, build the project, run tests, and generate documentation.
+
+<h2 align="center">Cargo Commands</h2>
+
+| Command | Description |
+| ------- | ----------- |
+| `cargo new <project-name>` | Create a new rust project |
+| `cargo build` | Build the project |
+| `cargo run` | Build and run the project |
+| `cargo check` | Check the project for errors |
+| `cargo test` | Run the tests in the project |
+| `cargo doc` | Generate the documentation for the project |
+| `cargo doc --open` | Generate and open the documentation for the project |
+| `cargo add` | Add a dependency to the project |
+| `catgo fetch` | Fetch the dependencies in the project |
+| `cargo update` | Update the dependencies in the project |
+| `cargo clean` | Clean the project |
+| `cargo remove` | Remove a dependency from the project |
+
 ## Common Concepts
 
 - **Variables**: Rust has a strong static type system that requires you to declare the type of a variable when you define it.
