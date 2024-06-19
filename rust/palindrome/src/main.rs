@@ -1,3 +1,4 @@
+//palindrome checker
 
 fn is_palindrome(s: &str) -> bool {
     let s = s.to_lowercase();
